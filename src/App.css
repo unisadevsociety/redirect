@@ -1,38 +1,58 @@
-.App {
-  text-align: center;
+.congratsAnimation3 {
+  width: 30vw;
+  margin-top: -25vh;
+  margin-bottom: 5vh;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.congratswrapper {
+  width: 100vw;
+  background-color: #e3e3e3;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.congratstext {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.goToHemoButton {
+  text-decoration: none;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 1.2rem;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.goToHemoButtonBorders {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 10vw;
+  height: 5vh;
+  background-color: black;
+  border-radius: 0.5vw;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.goToHemoButtonBorders:hover {
+  width: 8.5vw;
+  height: 5.5vh;
+  background-color: rgb(71, 71, 90);
+}
+@media (max-width: 767px) {
+  .goToHemoButton {
+    font-size: 0.8rem;
   }
-  to {
-    transform: rotate(360deg);
+  .goToHemoButtonBorders {
+    width: 22vw;
+    height: 4vh;
+    border-radius: 1vw;
+  }
+  .goToHemoButtonBorders:hover {
+    width: 22.5vw;
+    height: 4.5vh;
+  }
+  .congratsAnimation3 {
+    width: 75vw;
   }
 }
