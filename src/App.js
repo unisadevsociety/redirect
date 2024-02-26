@@ -20,7 +20,7 @@ function App() {
           {/* Add a Link to the home page */}
           <div className="goToHemoButtonBorders">
             <a
-              href="https://unisadevsociety.github.io/dev/"
+              href="https://unisadevsociety.github.io/site/"
               className="goToHemoButton"
             >
               Go to Home
